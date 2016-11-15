@@ -17,24 +17,23 @@ def create_app():
 app = create_app()
 
 # REPLACE WITH YOUR DATABASE NAME
-MONGODATABASE = "myDatabase"
+MONGODATABASE = "users"
 MONGOSERVER = "localhost"
 MONGOPORT = 27017
 client = MongoClient(MONGOSERVER, MONGOPORT)
 mongodb = client[MONGODATABASE]
 
-''' # Uncomment for postgres connection
+# Uncomment for postgres connection
 # REPLACE WITH YOUR DATABASE NAME, USER AND PASS
-POSTGRESDATABASE = "mydatabase"
-POSTGRESUSER = "myuser"
-POSTGRESPASS = "mypass"
+POSTGRESDATABASE = "administrator"
+POSTGRESUSER = "administrator"
+POSTGRESPASS = "h59Ws*Rd2"
 postgresdb = psycopg2.connect(
     database=POSTGRESDATABASE,
     user=POSTGRESUSER,
     password=POSTGRESPASS)
-'''
 
-QUERIES_FILENAME = 'queries'
+QUERIES_FILENAME = '/var/www/flaskr/flaskr/queries'
 
 
 @app.route("/")
