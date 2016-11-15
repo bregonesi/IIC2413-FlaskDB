@@ -8,7 +8,7 @@
   },
   {
     "name": "Quiero todo de mongo",
-    "database": "e4",
+    "database": "mongo",
     "description": "...",
     "query": "users.find()"
   },
