@@ -7,7 +7,7 @@
   "query": "myCollection.find( {\"attribute\": \"value\"} )"
   },
   {
-    "name": "Quiero todo de mongo 😄",
+    "name": "Quiero todo de mongo",
     "database": "users",
     "description": "...",
     "query": "entidades.find()"
