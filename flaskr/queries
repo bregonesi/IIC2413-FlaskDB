@@ -1,0 +1,22 @@
+[
+  {
+  "name": "Todos los users",
+  "database": "users",
+  "description":
+  "Vestibulum vulputate metus at nisl lacinia blandit. Quisque fermentum sagittis mi",
+  "query": "myCollection.find( {\"attribute\": \"value\"} )"
+  },
+  {
+    "name": "Quiero todo de mongo 😄",
+    "database": "users",
+    "description": "...",
+    "query": "entidades.find()"
+  },
+  {
+    "name": "Insertar a mongo",
+    "database": "mongo",
+    "description":
+      "Vestibulum vulputate metus at nisl lacinia blandit. Quisque fermentum sagittis mi",
+    "query": "myCollection.insert( { \"attribute\": \"value\" } )"
+  }
+]
