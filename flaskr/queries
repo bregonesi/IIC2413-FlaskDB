@@ -8,9 +8,9 @@
   },
   {
     "name": "Quiero todo de mongo",
-    "database": "users",
+    "database": "e4",
     "description": "...",
-    "query": "entidades.find()"
+    "query": "users.find()"
   },
   {
     "name": "Insertar a mongo",
